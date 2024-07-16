@@ -1,0 +1,5 @@
+This is a list of dependencies necessary to run each of the configuration modules.
+Eventually, maybe, I can automatize the instalation of those programs.
+
+[i3]
+kitty: set as default terminal
