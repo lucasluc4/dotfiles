@@ -3,5 +3,8 @@ Eventually, maybe, I can automatize the instalation of those programs.
 
 [i3]
 kitty: set as default terminal
+
+[zsh]
 zsh and zsh-completions: the default shell - then run chsh -s /usr/bin/zsh to set zsh as default
-oh-my-zsh
+oh-my-zsh: to make terminal look beautiful
+ttf-meslo-nerd and ttf-fira-code: default fonts
