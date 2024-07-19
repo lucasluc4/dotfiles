@@ -3,6 +3,7 @@ Eventually, maybe, I can automatize the instalation of those programs.
 
 [i3]
 kitty: set as default terminal
+feh: for background
 
 [zsh]
 zsh and zsh-completions: the default shell - then run chsh -s /usr/bin/zsh to set zsh as default

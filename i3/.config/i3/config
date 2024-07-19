@@ -1,4 +1,4 @@
-# exec --no-startup-id ~/set_once.sh
+# exec --no-startup-id ~/set_once.<F12>sh
 # This file is a modified version based on default i3-config-wizard config
 # source is available here:
 # https://raw.githubusercontent.com/endeavouros-team/endeavouros-i3wm-setup/main/etc/skel/.config/i3/config
@@ -24,6 +24,9 @@
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 font pango: Meslo LGM Nerd Font 10
+
+# Background
+exec_always feh --bg-scale ~/.config/feh/bg_city.png
 
 # set the mod key to the winkey:
 set $mod Mod4
@@ -54,8 +57,8 @@ new_window pixel 1
 # hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 6
-gaps outer 3
+gaps inner 0
+gaps outer 0
 
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
